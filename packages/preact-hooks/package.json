@@ -1,0 +1,36 @@
+{
+  "name": "@zikojs/preact-hooks",
+  "version": "0.1.0",
+  "description": "Adapt zikojs hooks to preact",
+  "keywords": [
+    "zikojs",
+    "preact",
+    "hooks"
+  ],
+  "license": "MIT",
+  "author": "zakaria elalaoui",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports":{
+    "." : {
+      "import" : "./src/index.js",
+      "types" : "./src/index.d.ts"
+     }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikojs/preact.git",
+    "directory": "packages/preact-hooks"
+  },
+  "dependencies": {
+    "ziko": "catalog:"
+  },
+  "peerDependencies": {
+    "preact": "catalog:"
+  }
+}

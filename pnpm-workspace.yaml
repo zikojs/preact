@@ -1,0 +1,8 @@
+packages:
+  - "packages/*"
+  - "demos/*"
+
+# catalog :
+#   vite : latest
+#   ziko : latest
+#   preact : latest

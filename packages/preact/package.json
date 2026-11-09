@@ -1,10 +1,9 @@
 {
   "name": "@zikojs/preact",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Use Zikojs components within Preact",
   "keywords": [
     "zikojs",
-    "ziko",
     "preact"
   ],
   "license": "MIT",

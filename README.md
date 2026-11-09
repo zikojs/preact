@@ -1,8 +1,8 @@
-# menyz
-A lightweight, ES6-based reimplementation of Meny.js, offering a modern API and multi-framework support.
+@zikojs/preact
+@zikojs/preact-hooks
+@zikojs/preact-components
 
-## Supports 
-
-- Zikojs 
-- Astro 
-- VanJs  
+External : 
+  ufbr 
+  @zikojs/preact
+  @zikojs/preact-console

@@ -24,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zikojs/integrations.git",
+    "url": "git+https://github.com/zikojs/preact.git",
     "directory": "packages/preact"
   },
   "dependencies": {
     "ziko": "catalog:"
   },
   "peerDependencies": {
-    "preact": "^10.29.8"
+    "preact": "catalog:"
   }
 }

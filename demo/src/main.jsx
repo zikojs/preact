@@ -73,7 +73,7 @@
 // render(<App />, document.body);
 
 import { render } from 'preact';
-import { createTheme, useThemeManager } from '@zikojs/preact/hooks';
+import { createTheme, useThemeManager } from '@zikojs/preact-hooks';
 
 const themeManager = createTheme({
     light: {

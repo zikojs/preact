@@ -1,7 +1,7 @@
 {
   "name": "@zikojs/preact-hooks",
-  "version": "0.1.0",
-  "description": "Adapt zikojs hooks to preact",
+  "version": "0.4.0",
+  "description": "",
   "keywords": [
     "zikojs",
     "preact",
@@ -17,6 +17,10 @@
     "." : {
       "import" : "./src/index.js",
       "types" : "./src/index.d.ts"
+     },
+     "./*" : {
+      "import" : "./src/*/index.js",
+      "types" : "./src/*/index.d.ts"
      }
   },
   "scripts": {

@@ -1,0 +1,1 @@
+export type * from './click-away.d.ts'

@@ -16,6 +16,10 @@
     "." : {
       "import" : "./src/index.js",
       "types" : "./src/index.d.ts"
+     },
+     "./*" : {
+      "import" : "./src/*/index.js",
+      "types" : "./src/*/index.d.ts"
      }
   },
   "scripts": {

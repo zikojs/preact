@@ -9,11 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.9.1",
-    "vite": "^5.4.10"
+    "@preact/preset-vite": "^2.10.6",
+    "vite": "^5.4.21"
   },
   "dependencies": {
-    "p5.wrapper": "^0.0.2",
-    "preact": "catalog:"
+    "@zikojs/preact": "workspace:*",
+    "preact": "catalog:",
+    "@zikojs/preact-hooks" : "workspace:*"
   }
 }

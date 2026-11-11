@@ -2,6 +2,8 @@ packages:
   - "packages/*"
   - "demo"
 
+allowBuilds:
+  esbuild: false
 catalog :
   vite : latest
   ziko : latest
